@@ -1,0 +1,88 @@
+.button {
+    background-color: #162D3A;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: pointer;
+    width: 280px;
+    height: 50px;
+}
+
+.button1 {
+    border-radius: 12px;
+
+}
+
+.button2 {
+    border-radius: 12px;
+    background-color: #F3F9FA;
+    color: rgb(0, 0, 0);
+}
+
+.button3 {
+    border-radius: 12px;
+    background-color: #F3F9FA;
+    color: rgb(0, 0, 0);
+}
+
+.gambar {
+    width: 15px;
+    padding-right: 17px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 20px;
+}
+
+.gambar-desktop {
+    width: 700px;
+}
+
+.gambar-besar {
+    margin-left: 150px;
+}
+
+.tampilanlogin {
+    padding-right: 60px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #D4D7E3;
+    border-radius: 3px;
+}
+
+@media (max-width:480px) {
+    .button {
+        width: 200px;
+        height: 40px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gambar-desktop {
+        width: 500px;
+        border-radius: 10px;
+    }
+
+    .gambar-besar {
+        margin-left: 100px;
+    }
+
+    .tampilanlogin {
+        padding-right: 40px;
+    }
+}
